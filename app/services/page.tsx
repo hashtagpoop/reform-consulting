@@ -153,7 +153,7 @@ export default function ServicesPage() {
                   </div>
 
                   {o.demoLink && (
-                    <a
+                    <Link
                       href={o.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -161,7 +161,7 @@ export default function ServicesPage() {
                     >
                       See a working example
                       <span aria-hidden>&#8599;</span>
-                    </a>
+                    </Link>
                   )}
 
                   <Link
