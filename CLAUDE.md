@@ -110,6 +110,14 @@ npm run build            # production build
 npm run remotion:studio  # Remotion preview studio
 ```
 
+## Blog (Field Notes)
+
+Posts live as JSX objects in `lib/posts.tsx`. The blog section is called "Field Notes" throughout the site.
+
+Use the `/blog-post` skill when writing a new post. It covers voice rules, available JSX components (`<P>`, `<H2>`, `<H3>`, `<Callout>`, `<Code>`), the required post fields, and a skeleton to work from.
+
+Skill file: `.claude/commands/blog-post.md`
+
 ## Conventions
 
 - Server components by default; mark client components with `"use client"` only when needed (forms, embeds, the Remotion `<Player>`).
